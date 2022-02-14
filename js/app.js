@@ -14,6 +14,7 @@ function generatePin() {
     document.getElementById('display-pin').value = pin; //j pin ta generate hobe ota display te show hobe.
 }
 
+//event bubble to create calc and clear
 document.getElementById('key-pad').addEventListener('click', function (event) {
     const number = event.target.innerText;
     const calcInput = document.getElementById('typed-numbers');
@@ -29,3 +30,4 @@ document.getElementById('key-pad').addEventListener('click', function (event) {
     }
 
 });
+
